@@ -24,7 +24,7 @@ const moment = require ("moment")
 const jano = new Discord.Client();
 const prefix = "/";
 
-jano.login("Nzk0NDYwNTE1MzE3MTg2NTcw.X-7JAw.Bnr3OD5opN0-lqC6O50-KO5chdg"); 
+jano.login("ODg4ODc4MDE3Njg5MDMwNzM3.YUZGKQ.hBfL80vJwPF0C8uNSnia7wcxBTA"); 
 
 jano.on("ready", async () => {
   console.log(`Logged in as ${jano.user.username}!`);
@@ -629,7 +629,7 @@ jano.on("message", message => {
 jano.on("message", message => {
   if (message.content.startsWith(prefix + "support")) {
     const embed = new Discord.MessageEmbed()
-      .setDescription(`[Support](https://discord.gg/DhDhK2B7Yz)`)
+      .setDescription(`[Support](https://discord.gg/3nBqYtnmUK)`)
       .setTimestamp()
       .setFooter(`By: ${message.author.tag}`)
       .setAuthor(jano.user.username)
@@ -650,7 +650,7 @@ jano.on("message", message => {
 ///////playing///////
 jano.on("ready", () => {
   setInterval(() => {
-    console.log(`${jano.user.username} owner jano,
+    console.log(`${jano.user.username} owner rasha,
 )}, server ${jano.guilds.cache.size}
   `);
     jano.user.setActivity(
@@ -690,7 +690,7 @@ jano.on("message", message => {
 
       .addField("**USERS** : ", `» ${jano.users.cache.size}  users`, true)
 
-      .addField("**Owner** : ", `<@681553671364018196>`, true)
+      .addField("**Owner** : ", `<RASHA>`, true)
 
       .setImage(
         "https://cdn.discordapp.com/attachments/696796419595567108/741981480653291570/image0-40.gif"
